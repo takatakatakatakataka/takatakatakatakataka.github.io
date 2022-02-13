@@ -1,0 +1,162 @@
+/* ----------------------- */
+/* base  0
+/* ----------------------- */
+
+
+@charset "UTF-8";
+
+body{
+	font-family:Arial, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	background:#c1daeb;
+	
+}
+
+#wrapper{
+	width:500px;
+	margin:0 auto;
+}
+
+header{
+	position:relative;
+	margin-bottom:10px;
+	color:#7D5740;
+	font-weight:bold;
+}
+
+h1{
+	padding:40px 0 60px;
+	text-align:center;
+	font-size:3em;
+}
+
+
+
+#hp{
+	font-size:1.3em;
+	position:absolute;
+	text-align:center;
+	right:0;
+	bottom:0;
+}
+#damage{
+	font-size:1.3em;
+	position:absolute;
+	text-align:center;
+	right:0;
+	bottom:20px;
+}
+
+img {
+	position: absolute;
+	top:0;
+	left: 0;
+	width:500px;
+	height:500px;
+	z-index: -1;
+	object-fit: cover;
+}
+
+#timer{
+	font-size:1.3em;
+	position:absolute;
+	bottom:0;
+}
+
+#record {
+	font-size:1.3em;
+	position:absolute;
+	bottom:20px;
+
+}
+
+#game{
+	position:relative;
+
+}
+
+
+
+#numbers div{
+	width:124px;
+	height:80px;
+	padding-top:43.75px;
+	font-size:1.8em;
+	font-weight:bold;
+	background:#72975a;
+	color:#c1daeb;
+	margin-right:1px;
+	margin-bottom:1px;
+	text-align:center;
+	float:left;
+	cursor:pointer;
+
+}
+
+#numbers div.hit{
+	background:#5092dd;
+	color:#581fc2;
+	opacity: 0.4;
+}
+
+#startScene{
+	position:absolute;
+	top:0;
+	left:0;
+	width:500px;
+	height:500px;
+	background:#72975a;
+}
+
+#startScene p{
+	margin:205px 0 10px;
+	text-align:center;
+	color:#072474;
+}
+
+button{
+	margin:0 auto;
+	border:none;
+	background:#2d57c9;
+	padding:10px 40px;
+	cursor:pointer;
+	display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 2em;
+  border-radius: 20px;
+  height: 80px;
+  font-weight: bold;
+  border-bottom: 5px solid #0b2c86;
+  transition: 0.3s;
+  
+}
+
+button:hover{
+	color:#eef8fc;
+	background:#4f74da;
+	border-bottom-width: 0;
+  transform: translateY(5px);
+}
+
+button:focus{
+	outline:none;
+}
+
+footer{
+	margin-top: 600px;
+}
+
+
+.reply {
+	text-align: center;
+	display: flex;
+	justify-content: space-between;
+}
+.reply  a {
+font-size: 30px;
+margin-bottom: 30px;
+}
