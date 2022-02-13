@@ -42,7 +42,7 @@ $(function() {
        index = Math.floor(Math.random()*10/4 )
        answer = img[index]
 
-      $('.img img').attr('src','img/' + img[index] + '.jpg')
+      $('.img img').attr('src', img[index] + '.jpg')
       console.log(answer);
 
       $("#startScene p").css('opacity',0)
